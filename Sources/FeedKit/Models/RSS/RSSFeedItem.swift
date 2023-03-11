@@ -154,6 +154,11 @@ public class RSSFeedItem {
     /// date in the future, aggregators may choose to not display the item until 
     /// that date.
     public var pubDate: Date?
+
+    /// A string representation of the `pubDate` property.
+    /// Some RSS feeds have mal-formatted `pubDate` in the style of "Fri, 04 Jun 2021 10:00:00 &#43;0000".
+    /// This requires a string concatenation first before we can parse it into a Date object.
+    var pubDateString: String?
     
     /// The RSS channel that the item came from.
     /// 

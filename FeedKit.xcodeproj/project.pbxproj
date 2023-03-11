@@ -487,6 +487,10 @@
 		BB394B7D223B368C00366193 /* AmpersandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB394B7C223B368C00366193 /* AmpersandTests.swift */; };
 		BB394B7E223B368C00366193 /* AmpersandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB394B7C223B368C00366193 /* AmpersandTests.swift */; };
 		BB394B7F223B368C00366193 /* AmpersandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB394B7C223B368C00366193 /* AmpersandTests.swift */; };
+		E631882A29BD269100662EF6 /* PubDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E631882929BD269100662EF6 /* PubDateTests.swift */; };
+		E631882C29BD270D00662EF6 /* iphreaks.xml in Resources */ = {isa = PBXBuildFile; fileRef = E631882B29BD270D00662EF6 /* iphreaks.xml */; };
+		E631882D29BD270D00662EF6 /* iphreaks.xml in Resources */ = {isa = PBXBuildFile; fileRef = E631882B29BD270D00662EF6 /* iphreaks.xml */; };
+		E631882E29BD270D00662EF6 /* iphreaks.xml in Resources */ = {isa = PBXBuildFile; fileRef = E631882B29BD270D00662EF6 /* iphreaks.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -723,6 +727,8 @@
 		A0F79FBC1F642AE2007CFC08 /* RDFTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDFTests.swift; sourceTree = "<group>"; };
 		BB394B77223B35D700366193 /* Ampersand.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Ampersand.xml; sourceTree = "<group>"; };
 		BB394B7C223B368C00366193 /* AmpersandTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmpersandTests.swift; sourceTree = "<group>"; };
+		E631882929BD269100662EF6 /* PubDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubDateTests.swift; sourceTree = "<group>"; };
+		E631882B29BD270D00662EF6 /* iphreaks.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iphreaks.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -824,6 +830,7 @@
 				A09AFB381EEFDFF40076ACC7 /* RSS2Tests.swift */,
 				A09AFB391EEFDFF40076ACC7 /* SyndicationTests.swift */,
 				BB394B7C223B368C00366193 /* AmpersandTests.swift */,
+				E631882929BD269100662EF6 /* PubDateTests.swift */,
 				A0C788BE20CC5606005C2F6F /* FeedUriSchemeSanitizerTests.swift */,
 				A09AFB5E1EEFE0060076ACC7 /* Info.plist */,
 			);
@@ -1121,6 +1128,7 @@
 		A0F6B9AD1F6E6FA700220625 /* xml */ = {
 			isa = PBXGroup;
 			children = (
+				E631882B29BD270D00662EF6 /* iphreaks.xml */,
 				BB394B77223B35D700366193 /* Ampersand.xml */,
 				A0F6B9AE1F6E6FA700220625 /* Atom.xml */,
 				A0F6B9AF1F6E6FA700220625 /* AtomMedia.xml */,
@@ -1466,6 +1474,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E631882C29BD270D00662EF6 /* iphreaks.xml in Resources */,
 				A0F6B9DF1F6E713F00220625 /* Syndication.xml in Resources */,
 				A0F6B9DA1F6E713F00220625 /* RDF.xml in Resources */,
 				A0F6B9DC1F6E713F00220625 /* RSS2.xml in Resources */,
@@ -1486,6 +1495,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E631882D29BD270D00662EF6 /* iphreaks.xml in Resources */,
 				A0F6B9D41F6E713F00220625 /* Syndication.xml in Resources */,
 				A0F6B9CF1F6E713F00220625 /* RDF.xml in Resources */,
 				A0F6B9D11F6E713F00220625 /* RSS2.xml in Resources */,
@@ -1506,6 +1516,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E631882E29BD270D00662EF6 /* iphreaks.xml in Resources */,
 				A0F6B9C91F6E713F00220625 /* Syndication.xml in Resources */,
 				A0F6B9C41F6E713E00220625 /* RDF.xml in Resources */,
 				A0F6B9C61F6E713E00220625 /* RSS2.xml in Resources */,
@@ -1682,6 +1693,7 @@
 				A09AFB5B1EEFDFF40076ACC7 /* SyndicationTests.swift in Sources */,
 				A09AFB581EEFDFF40076ACC7 /* RSS2Tests.swift in Sources */,
 				A09AFB551EEFDFF40076ACC7 /* ParserErrorTests.swift in Sources */,
+				E631882A29BD269100662EF6 /* PubDateTests.swift in Sources */,
 				A09AFB521EEFDFF40076ACC7 /* MediaTests.swift in Sources */,
 				A0F79FBD1F642AE2007CFC08 /* RDFTests.swift in Sources */,
 				A09AFB3A1EEFDFF40076ACC7 /* AtomTests.swift in Sources */,
